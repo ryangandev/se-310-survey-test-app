@@ -1,0 +1,29 @@
+SE 310
+Survey Homework 2 Part D
+By: Ryan Gan (zg88)
+
+Survey folder: serialSave\Survey\
+Survey_Response Folder: serialSave\surveyResponse
+Test folder: serialSave\Test\
+Test_Response Folder: serialSave\testResponse
+
+Survey sample with 1 of each type of question: serialSave\Survey\Survey_1
+Survey Response samples with responses to all questions in the above survey, can be used for testing:
+    serialSave\SurveyResponse\Survey_1_Response_1
+    serialSave\SurveyResponse\Survey_1_Response_2
+    serialSave\SurveyResponse\Survey_1_Response_3
+    
+Test sample with 1 of each type of question: serialSave\Test\Test_1
+Test Response samples with responses to all questions in the above survey, can be used for testing:
+    serialSave\TestResponse\Test_1_Response_1
+    serialSave\TestResponse\Test_1_Response_2
+    serialSave\TestResponse\Test_1_Response_3
+    serialSave\TestResponse\Test_1_Response_4
+
+All functionalities in homework 2D requirements are implemented, as long as there is no renaming the file created by the system,
+or inserting random files into the serialSave folder, the program should work perfectly fine without throwing exceptions.
+
+Note:
+1. Matching questions can have multiple same answers. Ex: 1 or more choices from the left column can have the same answer from the right column
+(hope i won't lose points on this, this can be easily modified)
+2. Valid Date question allows multiple same dates
